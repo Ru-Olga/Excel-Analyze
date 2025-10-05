@@ -7,7 +7,7 @@
 
 ### Этапы выполнения
 
-1. Соберём таблицы в одну: база — `Transactions`, через `VLOOKUP` подтягиваем `Customers`, `Products`, `Stores`.
+1. Соберём таблицы в одну: базовая - `Transactions`, через `VLOOKUP` подтягиваем `Customers`, `Products`, `Stores`.
 
 2. Проверка пропусков:
    - `=COUNTIF($A2:$V2,"#N/A")`
